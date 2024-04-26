@@ -17,7 +17,7 @@ else
     echo "You are super user".
 fi
 
-dnf install mysql -y
+dnf install mydvsql -y
 
 dnf install git -y
 
