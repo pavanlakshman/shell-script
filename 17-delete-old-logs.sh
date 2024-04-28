@@ -15,10 +15,10 @@ else
     exit 1
 fi
 
-FILES=$(find $SOURCE_DIRECTORY -name "*.log" -mtime +14)
+#FILES=$(find $SOURCE_DIRECTORY -name "*.log" -mtime +14)
 
-while
-do
-    echo "Deleting file: $line"
-    rm -rf $line
-done <<< $FILES
+#while
+#do
+ #   echo "Deleting file: $line"
+  #  rm -rf $line
+#done <<< $FILES
