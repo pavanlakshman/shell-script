@@ -6,7 +6,7 @@ MESSAGE=""
 
 while IFS= read -r line
 do
-    USAGE=$(echo $line | awk -F " " '{print $6F}' )
+    USAGE=$(echo $line | awk -F " " '{print $2F}' )
     FOLDER=$(echo $line | awk -F " " '{print $NF}')
     if [ $USAGE -ge $DISK_THRESHOLD ]
     then
