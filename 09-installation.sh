@@ -39,6 +39,7 @@ USER_ID=$(id -u)
 if [ $USER_ID -ne 0 ]
 then
     echo "Please run this script as Root user"
+    exit 1
 else
     echo "You are superuser"
 fi
