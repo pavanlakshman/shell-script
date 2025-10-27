@@ -42,3 +42,5 @@ then
 else
     echo "You are superuser"
 fi
+
+dnf install mysql -y
